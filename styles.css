@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color: #f4f4f4;
     color: #333;
+    transition: background 0.3s, color 0.3s;
 }
 
 header {
@@ -11,6 +12,31 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
 }
 
 section {
@@ -32,6 +58,11 @@ h2 {
     border-left: 5px solid #0073e6;
     margin-bottom: 10px;
     border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
 }
 
 ul {
@@ -64,4 +95,24 @@ footer {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode section {
+    background: #333;
+}
+
+.dark-mode nav ul li a {
+    color: white;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
