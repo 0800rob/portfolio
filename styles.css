@@ -21,17 +21,18 @@ header {
 }
 
 .profile-container {
+.profile-container {
     position: absolute;
-    top: 65%;
-    transform: translateY(-50%);
-    width: 150px;
-    height: 150px;
+    top: 20px; /* Ajusta a distância do topo */
+    left: 20px; /* Ajusta a distância da lateral esquerda */
+    width: 120px; /* Reduz um pouco o tamanho para não sobrepor o texto */
+    height: 120px;
     border-radius: 50%;
     overflow: hidden;
-    border: 5px solid white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 4px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
-
+    
 .profile-container img {
     width: 100%;
     height: 100%;
