@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - IT & Cloud Specialist</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle">🌙</button></li>
+            </ul>
+        </nav>
         <h1>Welcome to My Portfolio</h1>
         <p>Linux | Cloud | Networking | Security</p>
     </header>
@@ -20,11 +30,11 @@
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="project">
-            <h3>AWS Linux Server Deployment</h3>
+            <h3><i class="fas fa-server"></i> AWS Linux Server Deployment</h3>
             <p>Deployed and configured an AWS EC2 instance with Nginx for web hosting, security hardening, and automation.</p>
         </div>
         <div class="project">
-            <h3>Migration from Azure to AWS</h3>
+            <h3><i class="fas fa-cloud"></i> Migration from Azure to AWS</h3>
             <p>Migrated a complete workload from Azure to AWS, optimizing costs and improving security.</p>
         </div>
     </section>
@@ -32,22 +42,29 @@
     <section id="services">
         <h2>Services</h2>
         <ul>
-            <li>Cloud Consulting (AWS, Azure, Google Cloud)</li>
-            <li>Linux Server Administration</li>
-            <li>Network Security & VPN Configuration</li>
-            <li>Infrastructure Monitoring (Zabbix, Grafana)</li>
-            <li>Automation & Scripting (Bash, Ansible)</li>
+            <li><i class="fas fa-cloud"></i> Cloud Consulting (AWS, Azure, Google Cloud)</li>
+            <li><i class="fas fa-linux"></i> Linux Server Administration</li>
+            <li><i class="fas fa-lock"></i> Network Security & VPN Configuration</li>
+            <li><i class="fas fa-chart-line"></i> Infrastructure Monitoring (Zabbix, Grafana)</li>
+            <li><i class="fas fa-code"></i> Automation & Scripting (Bash, Ansible)</li>
         </ul>
     </section>
     
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email: <a href="mailto:robjunior@outlook.com">robjunior@outlook.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/robson-junior-760a99115/" target="_blank">linkedin.com/in/robson-junior-760a99115</a></p>
+        <p>Email: <a href="mailto:robjunior@outlook.com"><i class="fas fa-envelope"></i> robjunior@outlook.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/robson-junior-760a99115/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/robson-junior-760a99115</a></p>
+        <p>WhatsApp: <a href="https://wa.me/yournumber" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></p>
     </section>
     
     <footer>
-        <p>&copy; 2025 Your Name - All rights reserved.</p>
+        <p>&copy; 2025 Robson Junior - All rights reserved.</p>
     </footer>
+
+    <script>
+        document.getElementById('theme-toggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
 </body>
 </html>
