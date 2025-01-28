@@ -14,10 +14,10 @@ Tema Claro/Escuro
 Efeitos de animação com CSS
 Implementação no GitHub Pages
 Tecnologias Utilizadas
-HTML5 & CSS3 → Estrutura e design responsivo
-JavaScript → Modo escuro e interatividade
-FontAwesome → Ícones profissionais
-GitHub Pages → Hospedagem gratuita
+HTML5 & CSS3 - Estrutura e design responsivo
+JavaScript - Modo escuro e interatividade
+FontAwesome - Ícones profissionais
+GitHub Pages - Hospedagem gratuita
 
 Como Usar ou Modificar
 Clone este repositório:
