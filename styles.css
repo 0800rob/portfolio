@@ -59,6 +59,7 @@ h2 {
     margin-bottom: 10px;
     border-radius: 5px;
     transition: transform 0.3s;
+    color: #333;
 }
 
 .project:hover {
@@ -104,6 +105,12 @@ footer {
 
 .dark-mode section {
     background: #333;
+    color: white;
+}
+
+.dark-mode .project {
+    background: #444;
+    color: white;
 }
 
 .dark-mode nav ul li a {
