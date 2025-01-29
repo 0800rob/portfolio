@@ -1,10 +1,10 @@
-#Portfolio - IT & Cloud Specialist
+# Portfolio - IT & Cloud Specialist
 
 Este é o meu site de portfólio desenvolvido para apresentar meus projetos e serviços na área de Cloud Computing, Linux, Networking e Segurança de TI.
 
 Acesse o site: https://0800rob.github.io/portfolio/
 
-#Sobre o Projeto
+# Sobre o Projeto
 
 Este projeto foi criado para demonstrar minhas habilidades técnicas, experiência profissional e projetos realizados. O site é totalmente responsivo, otimizado e inclui:
 
@@ -19,7 +19,7 @@ Este projeto foi criado para demonstrar minhas habilidades técnicas, experiênc
 - FontAwesome - Ícones profissionais
 - GitHub Pages - Hospedagem gratuita
 
-#Como Usar ou Modificar
+# Como Usar ou Modificar
 
 - Clone este repositório:
 - bash
@@ -30,7 +30,7 @@ Este projeto foi criado para demonstrar minhas habilidades técnicas, experiênc
 - Edite index.html e styles.css para personalizar.
 - Para publicar no GitHub Pages, faça push das alterações.
 
-#Contato
+# Contato
 
 E-mail: robjunior@outlook.com
 LinkedIn: linkedin.com/in/robson-junior-760a99115/
