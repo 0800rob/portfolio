@@ -8,37 +8,34 @@
     <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+        <ul id="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle">🌙</button></li>
+        </ul>
+    </nav>
+
     <header>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><button id="theme-toggle">🌙</button></li>
-            </ul>
-        </nav>
-        <div class="header-content">
-            <div class="profile-container">
-                <img src=".\minha-imagem.png" alt="Your Profile Picture">
-            </div>
-            <h1>Welcome to Robson Junior's Portfolio</h1>
-            <p class="specialties">Linux | Cloud Solutions | IT Security | DevOps | Networking</p>
+        <div class="profile-container">
+            <img src="images/minha-imagem.webp" alt="Your Profile Picture">
         </div>
+        <h1>Welcome to Robson Junior's Portfolio</h1>
+        <p class="specialties">Linux | Cloud Solutions | IT Security | DevOps | Networking</p>
     </header>
-    
+
     <section id="about">
         <h2>About Me</h2>
-        <p>I am an IT professional with over 7 years of experience specializing in systems administration and infrastructure. I excel in configuring and managing complex environments in both Windows and Linux, with strong expertise in virtualization and cloud computing. I have in-depth knowledge of LAN/WAN networks, network security, firewalls, VPNs, and system monitoring tools such as Nagios, Zabbix, and Grafana.</p>
-        <p>Throughout my career, I have achieved significant results, including implementing security policies that enhanced system resilience and configuring high-availability solutions that improved business continuity. My experience ranges from technical support and hosting operations to managing large-scale infrastructures.</p>
-        <p>My passion for technology drives me to continuously pursue new certifications and stay updated on industry best practices. I am always seeking challenges that allow me to apply my skills and contribute to the success of the organization, ensuring the efficiency and security of IT infrastructure.</p>
+        <p>IT professional with 7+ years of experience...</p>
     </section>
-    
+
     <section id="experience">
         <h2>Experience</h2>
         <div class="experience">
-            <img src=".\nelogica-logo.png" alt="Nelogica Logo" class="company-logo">
+            <img src="images/nelogica-logo.webp" alt="Nelogica Logo" class="company-logo">
             <div class="experience-details">
                 <h3>IT Infrastructure Analyst - <a href="https://www.nelogica.com.br" target="_blank">Nelogica</a></h3>
                 <p><i>Nov 2023 - Present | Rio de Janeiro, Brazil | Hybrid</i></p>
@@ -51,37 +48,31 @@
                     <li>Backup management and web server recovery;</li>
                     <li>Management and analysis of security updates (Patch Tuesday):</li>
                     <li>Critical analysis, testing, approval and planning, monitoring and tracking, and documentation.</li>
-                    <li>Work experience in agile environments (Scrum/Kanban).</li>
-                </ul>
+                    <li>Work experience in agile environments (Scrum/Kanban).</li>                </ul>
             </div>
         </div>
     </section>
-    
+
     <section id="portfolio">
         <h2>Portfolio</h2>
         <div class="project">
             <h3><i class="fas fa-server"></i> AWS Linux Server Deployment & Nginx Web Hosting Setup</h3>
             <p>I successfully migrated workloads from Azure to AWS and deployed a Linux-based VM on AWS EC2 to host a web application using Nginx.</p>
             <p>Configured security groups, IAM roles, and firewalls to ensure a secure cloud environment. Optimized Nginx with reverse proxy and SSL, automated backups and log rotation using Crontab, and implemented monitoring with Zabbix/Grafana.</p>
-            <p>The migration improved scalability, performance, and security, reducing cloud costs and enhancing infrastructure reliability.</p>
-        </div>
+            <p>The migration improved scalability, performance, and security, reducing cloud costs and enhancing infrastructure reliability.</p>        </div>
     </section>
-    
+
     <section id="contact">
         <h2>Contact</h2>
         <p>Email: <a href="mailto:robjunior@outlook.com"><i class="fas fa-envelope"></i> robjunior@outlook.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/robson-junior-760a99115/" target="_blank"><i class="fab fa-linkedin"></i> linkedin.com/in/robson-junior-760a99115</a></p>
         <p>WhatsApp: <a href="https://wa.me/5521997141332" target="_blank"><i class="fab fa-whatsapp"></i> Chat on WhatsApp</a></p>
     </section>
-    
+
     <footer>
         <p>&copy; 2025 Robson Junior - All rights reserved.</p>
     </footer>
 
-    <script>
-        document.getElementById('theme-toggle').addEventListener('click', function() {
-            document.body.classList.toggle('dark-mode');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
