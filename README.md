@@ -21,7 +21,8 @@ Este projeto foi criado para demonstrar minhas habilidades técnicas, experiênc
 
 # Como Usar ou Modificar
 
-- Clone este repositório:
+Clone este repositório:
+
 - bash
 - Copiar
 - Editar
