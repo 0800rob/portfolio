@@ -32,6 +32,6 @@ Este projeto foi criado para demonstrar minhas habilidades técnicas, experiênc
 
 # Contato
 
-E-mail: robjunior@outlook.com
-LinkedIn: linkedin.com/in/robson-junior-760a99115/
+- E-mail: robjunior@outlook.com
+- LinkedIn: linkedin.com/in/robson-junior-760a99115/
 
